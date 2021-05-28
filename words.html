@@ -1,0 +1,1225 @@
+<!--
+
+THIS FILE HAS ABOUT 3,300 WORDS TO TRANSLATE
+
+TRANSLATION NOTES:
+
+When translating this thing, only edit the stuff that's BETWEEN the <tags>, like so:
+
+    <p id="still_english">hello</p>
+    =>
+    <p id="still_english">bonjour</p>
+
+Also, DON'T change anything between the [square brackets], like so:
+
+    Number #[N]
+    =>
+    Numero #[N]
+
+Exception to the "don't change tags" rule:
+Feel free to move around the italics & bold tags, so that the emphasis
+on the right phrases/words still makes sense!
+
+    <i>italics</i>
+    <b>bold</b>
+
+Also, some HTML weirdness you might want to know:
+
+    &amp; is an ampersand "&" sign
+    &#8226; is a dot
+    &rarr; is a rightward-facing arrow
+    &lt; is a "<" sign
+
+ALSO! I'd love for you to credit yourself as a translator!
+You can add your own name in the <p id="subtitle"> section
+
+Thanks again!
+~ Nicky Case
+
+-->
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - META STUFF - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="meta_title">
+A Evolução da Confiança
+</p>
+<p id="meta_desc">
+um guia interativo para a teoria dos jogos do porquê e como confiamos uns nos outros
+</p>
+<p id="meta_loading">
+a carregar...
+</p>
+<p id="meta_on">
+LIGADO
+</p>
+<p id="meta_off">
+DESLIGADO
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - TITLE! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="title">
+<span style="font-size:0.75em">A</span><br>
+EVOLUÇÃO<br>
+<span style="font-size:0.75em">DA CONFIANÇA</span>
+</p>
+<p id="subtitle">
+
+tempo de jogo: 30 min • criado por nicky case, julho de 2017 
+
+<!-- TRANSLATION NOTE: UNCOMMENT THE FOLLOWING & ADD YOUR OWN NAME! -->
+<!--
+<br>
+translated by YOUR NAME HERE
+&#8226;
+<a href="http://ncase.me/trust/">original English version</a>
+-->
+
+</p>
+
+<p id="loading">
+a carregar...
+</p>
+<p id="loading_done">
+JOGAR →
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - INTRO! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="intro">
+Durante a Primeira Guerra Mundial, a paz eclodiu.
+<br><br>
+
+Era o Natal de 1914 na Frente Ocidental.<br>
+Apesar de ordens claras para <i>não</i> ficar à vontade com o inimigo, soldados<br>
+ingleses e alemães deixaram as suas trincheiras, atravessaram a Terra de Ninguém,<br>
+e reuniram-se para enterrar os seus mortos, trocar presentes e jogar uns jogos.
+<br><br>
+
+Entretanto: é 2017, o Ocidente está em paz há décadas, e<br>
+uau, somos uns <i>zeros à esquerda</i> no que toca a confiança. Pesquisas mostram que, nos últimos quarenta anos,
+cada vez menos pessoas dizem que confiam umas nas outras. Eis então o nosso enigma:
+<br><br>
+
+<b>Porque é que, mesmo em tempos de paz, amigos se tornam inimigos?<br>
+E porque é que, mesmo em tempos de guerra, inimigos se tornam amigos?</b>
+<br><br>
+
+Penso que a <b>teoria dos jogos</b> consegue ajudar a explicar a nossa epidemia de desconfiança –<br>
+e como a podemos consertar! Então, para compreender tudo isto...
+</p>
+<p id="intro_button">
+...vamos jogar um jogo. →
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ONE OFF! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_you_cooperate">
+tu<br>cooperas
+</p>
+
+<p id="label_you_cheat">
+tu<br>trais
+</p>
+
+<p id="label_they_cooperate">
+ele<br>coopera
+</p>
+
+<p id="label_they_cheat">
+ele<br>trai
+</p>
+
+<p id="label_you">
+tu<br>↙
+</p>
+<p id="label_them">
+o outro jogador<br>↘
+</p>
+
+<p id="oneoff_0_top">
+
+<b>O JOGO DA CONFIANÇA</b>
+<br>
+Tens uma escolha a fazer.
+À tua frente está uma máquina: se inserires uma moeda na máquina,
+o <i>outro jogador</i> recebe três moedas – e vice-versa.
+Vocês os dois podem escolher ou COOPERAR (inserir moeda), ou TRAIR (não inserir moeda).
+</p>
+
+<p id="oneoff_0_btm">
+<b>Suponhamos que o outro jogador trai a tua confiança, e não insere nenhuma moeda.</b><br>
+O que é que tu deverias fazer?
+</p>
+
+<p id="oneoff_1_cheated">
+Exatamente! Porquê deixar aquele traidor levar a melhor sobre ti?
+</p>
+
+<p id="oneoff_1_cooperated">
+Infelizmente, apresentar a outra face faz mesmo com que te batam!
+</p>
+
+<p id="oneoff_1_top">
+Se tu cooperares e ele te trair, tu perdes uma moeda e ele ganha três. (pontuação: -1 vs +3)
+No entanto, se vocês os dois traírem a confiança do outro, nenhum de vocês ganha nada nem perde nada. (pontuação: 0 vs 0)
+<b>Ou seja: deves TRAIR.</b>
+</p>
+
+<p id="oneoff_1_btm">
+<b>Mas suponhamos que o outro jogador coopera, e insere uma moeda.</b><br>
+O que é que tu deverias fazer desta vez?
+</p>
+
+<p id="oneoff_2_cheated">
+Uau, isso é bem mauzinho da tua parte... e também é a resposta certa!
+</p>
+
+<p id="oneoff_2_cooperated">
+Claro, parece a coisa certa a se fazer... <b>OU SERÁ QUE É??</b>
+</p>
+
+<p id="oneoff_2_top">
+Porque se vocês os dois cooperarem, ambos abdicam de uma moeda para ganhar três. (pontuação: +2 vs +2)
+Mas se tu o traíres e ele cooperar contigo, tu ganhas três moedas pelo preço de uma. (pontuação: +3 vs -1)
+<b>Ou seja: ainda &quot;deves&quot; TRAIR.</b>
+</p>
+
+<p id="oneoff_2_btm">
+E é <i>esse</i> o nosso dilema.
+Confiar é bom, mas pode fazer com que os outros se aproveitem de ti -- ou que disparem contra ti enquanto sais desarmado de uma trincheira.
+Às vezes, a desconfiança <i>é</i> racional!
+Mas e agora, o que é que acontece se jogarmos este jogo...
+</p>
+
+<p id="oneoff_button_next">
+...mais do que uma vez? →
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ITERATED - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="iterated_intro_top">
+<b>Agora, vamos jogar a sério.</b>
+Vais jogar contra 5 adversários diferentes, cada um com a sua própria &quot;estratégia&quot; de jogo.
+Contra cada adversário, vais jogar um certo número de rondas, que pode variar entre 3 e 7.
+(Não vais saber com antecedência quando é a última ronda)
+Será que podes confiar neles? Ou melhor... será que eles podem confiar em <i>ti?</i>
+</p>
+
+<p id="iterated_intro_btm">
+Faz a tua primeira jogada <i>a sério</i>. <b>Pensa bem.</b>
+</p>
+
+<p id="iterated_info_1">
+adversário: [X] de [Y]
+</p>
+</p>
+<p id="iterated_info_2">
+a tua pontuação total:
+</p>
+
+<p id="iterated_score_start">
+E a tua pontuação total é...
+</p>
+<p id="iterated_score_1">
+que é, uau, <i>incrivelmente</i> má, para dizer a verdade.
+</p>
+<p id="iterated_score_2">
+que, uh, poderia ser pior!
+</p>
+<p id="iterated_score_3">
+que não é má!
+</p>
+<p id="iterated_score_4">
+que é bem boa!
+</p>
+<p id="iterated_score_5">
+que é <i>perfeita!</i> Parabéns, tens demasiado tempo livre.
+</p>
+<p id="iterated_score_x">
+...eu não faço ideia de como conseguiste obter este resultado.
+</p>
+<p id="iterated_score_end">
+(as pontuações mais baixa e mais alta possíveis são 7 e 49, respetivamente)
+</p>
+
+<p id="who_were">
+E então, quem eram estas personagens estranhas contra quem acabaste de jogar?
+</p>
+
+<p id="character_tft">
+<b>COPIÃO:</b>
+Olá! Eu começo com Cooperar, e posteriormente, apenas copio o que quer que tu tenhas jogado na última ronda. Miau
+</p>
+
+<p id="character_all_d">
+<b>TRAIDOR:</b>
+<i>o forte comerá o fraco</i>
+</p>
+
+<p id="character_all_c">
+<b>COOPERADOR:</b>
+&#39;Bora ser melhores amigos! &lt;3
+</p>
+
+<p id="character_grudge">
+<b>RANCOROSO:</b>
+Olha aqui, parceiro. Eu começo a cooperar, e continuo a cooperar,
+mas se tu me traíres uma vez que seja, EU VOU-TE TRAIR ATÉ AO ÚLTIMO DOS TEUS DIAS.
+</p>
+
+<p id="character_prober">
+<b>DETETIVE:</b>
+Primeiro, eu analiso-o. Começo a Cooperar consigo, Traio-o, Coopero, Coopero.
+Se me trair de volta, passarei a agir como o <span class="tft">Copião</span>.
+Se nunca me trair de volta, passarei a agir como o <span class="all_d">Traidor</span>, para explorá-lo.
+Elementar, meu caro Watson.
+</p>
+
+<p id="characters_teaser">
+Muito bem, e se agora estas personagens jogassem...
+</p>
+<p id="characters_button">
+...umas contra as outras? →
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - TOURNAMENT! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="place_your_bets">
+É hora do torneio!
+Cada personagem vai agora jogar contra cada uma das outras personagens:
+o que perfaz 10 partidas de pares, e 10 rondas por partida.
+<br><br>
+Quem é que achas que terá a maior pontuação <i>total</i>?
+<b>Pensa bem nisso... e depois
+FAZ A TUA APOSTA:</b>
+</p>
+
+<p id="tournament_intro">
+Muito bem, apostaste no [CHAR]!
+Acompanhemos as partidas uma a uma, e vejamos como o torneio se desenrola...
+</p>
+
+<p id="first_match">
+primeira partida →
+</p>
+
+<p id="next_match">
+próxima partida →
+</p>
+
+<p id="match_header_1">
+<b>Partida n.º [N]:</b> [A] vs [B]
+</p>
+<p id="match_header_2">
+<b>Rondas:</b>
+</p>
+<p id="match_header_3">
+<b>Pontuações Totais:</b> [A] vs [B]
+</p>
+
+<p id="tournament_1">
+Oh, já agora...
+</p>
+<p id="tournament_2">
+...É possível que estejas cético quanto àquela história da Trégua de Natal sobre as trincheiras da Primeira Guerra Mundial.
+De certeza que foi só um acaso... certo?
+</p>
+<p id="tournament_3">
+Sim, a trégua foi dramática, mas não foi <i>nem única, nem invulgar</i>.
+</p>
+<p id="tournament_4">
+Nem <i>todas</i> as trincheiras aderiram à paz, mas até que ela foi bem difundida.
+Várias linhas de frente tiveram essa mesma ideia independentemente, e repito: <i>apesar</i> das ordens específicas e bem claras para não o fazer.
+</p>
+<p id="tournament_5">
+E de facto, mesmo <i>antes</i> do Natal, várias linhas de frente já <i>tinham</i>
+estabelecido uma paz secreta não-oficial.
+</p>
+<p id="tournament_6">
+Chamaram-lhe: <b>o sistema &quot;vive e deixa viver&quot;.</b>
+Basicamente, tu não disparas contra mim, eu não disparo contra ti. E este sistema funcionou, em muitos lugares!
+</p>
+<p id="tournament_7">
+Pode ser que aindas estejas cético. A maioria dos soldados não forma paz espontaneamente com o inimigo.
+O que é que há de tão especial na guerra de <i>trincheiras</i>? 
+</p>
+<p id="tournament_8">
+Bem, eis o que é único sobre as trincheiras:
+ao contrário de quase todas as outras formas de guerra,
+os soldados enfrentam os <i>mesmos soldados</i> todos os dias.
+</p>
+<p id="tournament_9">
+<b>É um jogo repetido.</b> E isso faz <i>toda</i> a diferença.
+</p>
+<p id="tournament_10">
+Enfim. E o vencedor é...
+</p>
+
+<p id="the_winner_is">
+(rufem os tambores...) →
+</p>
+
+<p id="tournament_winner_1">
+o <b class="tft">COPIÃO!</b>
+</p>
+<p id="tournament_winner_2_yay">
+Parabéns, apostaste no cavalo certo.
+</p>
+<p id="tournament_winner_2_nay">
+(As minhas desculpas à tua aposta, o [CHAR].)
+</p>
+<p id="tournament_winner_3">
+O <span class="tft">Copião</span> tem muitos nomes.
+A Regra de Ouro, altruísmo recíproco, olho por olho, ou... <b>vive e deixa viver.</b>
+É por isso que a &quot;paz&quot; pôde emergir nas trincheiras da Primeira Guerra Mundial:
+quando se é obrigado a jogar o mesmo jogo com
+as <i>mesmas pessoas</i> (não só o mesmo &quot;inimigo&quot; genérico) uma e outra vez --
+O <span class="tft">Copião</span> não ganha só a batalha, ele vence a guerra.
+<br><br>
+Mas se as coisas mudam bastante quando se joga várias rondas do mesmo jogo, que tal nós jogarmos...
+</p>
+<p id="tournament_teaser">
+...vários <i>torneios?</i> →
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - EVOLUTION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="evolution_intro">
+Agora, deixemos a nossa população de jogadores <i>evoluir com o passar do tempo</i>. É uma dança de 3 passos:
+</p>
+<p id="evolution_intro_1">
+<b>1. ABRE UM TORNEIO</b><br>
+Fá-los jogarem uns contra os outros, e soma os pontos.
+</p>
+<p id="evolution_intro_2">
+<b>2. ELIMINA OS PERDEDORES</b><br>
+Livra-te dos 5 piores jogadores. (se houver um empate, escolhe aleatoriamente entre eles)
+</p>
+<p id="evolution_intro_3">
+<b>3. REPRODUZ OS VENCEDORES</b><br>
+Clona os 5 melhores jogadores. (se houver um empate, escolhe aleatoriamente entre eles)
+</p>
+<p id="evolution_intro_footer">
+...e REPETE, pelo tempo que quiseres.
+Nota: não é preciso esperar que as pessoas literalmente morram e se reproduzam para que a cultura evolua --
+a única coisa que é necessária é que os comportamentos &quot;malsucedidos&quot; vão embora, e que os comportamentos &quot;bem-sucedidos&quot; sejam imitados.
+Então agora...
+</p>
+<p id="evolution_intro_button">
+...&#39;bora ver tudo isto em ação. →
+</p>
+
+<p id="evo_1">
+Suponhamos que começamos com a seguinte população de jogadores:
+<span class="all_c">15 Cooperadores</span>,
+<span class="all_d">5 Traidores</span>, e
+<span class="tft">5 Copiões</span>.
+(Vamos ignorar o <span class="grudge">Rancoroso</span> e o <span class="prober">Detetive</span> por agora)
+<br><br>
+Vamos fazer a dança do torneio-eliminação-reprodução uma dúzia de vezes ou mais.
+Vamos fazer outra aposta! Quem é que achas que vai ganhar o <i>primeiro</i> torneio?
+<b>FAZ A TUA APOSTA, NOVAMENTE:</b>
+</p>
+
+<p id="evo_2_all_c">
+Faz sentido, o <span class="all_c">Cooperador</span> supera todos os outros em número neste momento...
+</p>
+<p id="evo_2_all_d">
+Faz sentido, o <span class="all_d">Traidor</span> tem muitos <span class="all_c">Cooperadores</span> para explorar...
+</p>
+<p id="evo_2_tft">
+Faz sentido, o <span class="tft">Copião</span> ganhou o torneio da última vez, porque não outra vez?...
+</p>
+<p id="evo_2">
+Vamos ver se acertaste:
+</p>
+
+<p id="label_play_tournament">
+1) abrir torneio
+</p>
+<p id="label_eliminate_bottom_5">
+2) eliminar os 5 piores
+</p>
+<p id="label_reproduce_top_5">
+3) reproduzir os 5 melhores
+</p>
+
+<p id="evo_3_all_c">
+Infelizmente, os <span class="all_c">Cooperadores</span> foram devorados pelos
+<span class="all_d">Traidores</span>, que aumentaram agora a sua população em 5.
+</p>
+<p id="evo_3_all_d">
+Infelizmente, estavas certo! Os <span class="all_d">Traidores</span> ganharam desta vez,
+e a sua população aumentou em 5.
+</p>
+<p id="evo_3_tft">
+Infelizmente, os <span class="tft">Copiões</span> não ganharam – mas pelo menos não se saíram tão mal
+quanto os <span class="all_c">Cooperadores</span>. Eles foram devorados pelos <span class="all_d">Traidores</span>,
+que aumentaram agora a sua população em 5.
+</p>
+<p id="evo_3">
+Mas tentemos mais umas rondas disto...
+</p>
+
+<p id="evo_4">
+Os <span class="all_d">Traidores</span> ainda se estão a reproduzir,
+às custas dos <span class="all_c">Cooperadores</span>...
+</p>
+
+<p id="evo_5">
+E agora, todos os <span class="all_c">Cooperadores</span> estão mortos.
+Mas, espera lá...
+</p>
+
+<p id="evo_6">
+Assim é que é: os <span class="all_d">Traidores</span> tornaram-se vítimas do seu próprio sucesso!
+Eles exploraram os ingénuos <span class="all_c">Cooperadores</span>,
+mas assim que acabaram com o stock deles, tiveram de enfrentar os <span class="tft">Copiões</span>:
+que <i>são</i> simpáticos, mas não são ingénuos.
+</p>
+
+<p id="evo_7">
+Simplesmente copiando as jogadas do outro jogador,
+os <span class="tft">Copiões</span> conseguem jogar bem uns com os outros,
+enquanto que os <span class="all_d">Traidores</span> se traem a si mesmos!
+Para além disso, tal também significa que os <span class="tft">Copiões</span>
+conseguem dar aos <span class="all_d">Traidores</span>
+um gostinho do próprio veneno.
+</p>
+
+<p id="evo_8">
+E então, consequentemente...
+</p>
+
+<p id="evo_9">
+...Os <span class="tft">Copiões</span> herdam a terra.
+</p>
+<p id="evo_9_all_c">
+Então, apesar de a tua aposta estar errada -- os simpáticos,
+mas ingénuos, <span class="all_c">Cooperadores</span>
+estavam condenados desde o início -- no final, uma forma <i>inteligente</i> de simpatia prevaleceu,
+e os <span class="all_d">Traidores</span> foram esmagados.
+</p>
+<p id="evo_9_all_d">
+Então, a curto prazo estavas certo - os <span class="all_d">Traidores</span> ganharam as primeiríssimas rondas,
+mas no final, a sua exploração levou-os à ruína.
+</p>
+<p id="evo_9_tft">
+Então, a longo prazo, estavas certo - os <span class="tft">Copiões</span> ganham!
+Os <span class="all_d">Traidores</span> podem ter ganhado a curto prazo,
+mas a sua exploração levou-os à ruína.
+</p>
+<p id="evo_9_end">
+Isto faz-me lembrar de uma frase:
+<br><br>
+<i>&quot;Somos punidos pelos nossos pecados, e não para eles.&quot;</i><br>
+~ Elbert Hubbard
+</p>
+<p id="evo_9_btn">
+(oh, e já agora...)
+</p>
+
+<p id="evo_10">
+(...este resultado é semelhante mesmo se colocarmos
+o <span class="grudge">Rancoroso</span> e o <span class="prober">Detetive</span> de volta:)
+</p>
+
+<p id="evo_autoplay">
+iniciar o processo evolutivo!
+</p>
+<p id="evo_autoplay_stop">
+parar o processo evolutivo
+</p>
+
+<p id="evo_10_followup">
+(Nota: às vezes, alguns <span class="grudge">Rancorosos</span> permanecem no ciclo evolutivo,
+porque quando todos os jogadores exceto o <span class="grudge">Rancoroso</span> e o <span class="tft">Copião</span>
+são eliminados, os dois empatam.)
+<br><br>
+Então, parece que a matemática da teoria dos jogos nos está a dizer alguma coisa:
+a filosofia daquele <span class="tft">Copião</span>,
+&quot;Faz aos outros aquilo que gostarias que te fizessem a ti&quot;, pode não ser só uma
+verdade <i>moral</i>, mas também uma verdade <i>matemática</i>.
+No entanto...
+</p>
+<p id="evo_10_btn">
+... há um problema: →
+</p>
+
+<p id="evo_11">
+Olha em volta. O mundo está repleto de completos idiotas.
+<br><br>
+Se o <span class="tft">Copião</span> é a estratégia (neste jogo repetido de confiança) que é tão poderosa --
+que até mesmo soldados nas trincheiras da Primeira Guerra Mundial &quot;desenvolveram&quot; independentemente uma estratégia semelhante, chamada &quot;vive e deixa viver&quot; --
+porque é que, então, há tantas pessoas que não confiam nos outros e que nem nas quais devemos confiar?
+O que é que está a causar a nossa epidemia de desconfiança?
+<br><br>
+Há uma pista naquela própria frase. &quot;<i>Neste</i> jogo repetido de confiança.&quot;
+Até agora só falamos da mudança nos jogadores:
+e que tal <i>uma mudança no jogo?</i>
+O que é que poderia levar à...
+</p>
+<p id="evo_11_btn">
+...evolução da <i>desconfiança?</i>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - DISTRUST - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="distrust_1">
+Antes que vá tudo para o caraças, vamos começar com alguma coisa de jeito!
+Aqui está um mundo inteiramente repleto de <span class="all_c">Cooperadores</span>,
+exceto por um <span class="all_d">Traidor</span> e um <span class="tft">Copião</span>.
+<br><br>
+Usa os botões à direita para <b>INICIAR</b> a simulação,
+analisa-a <b>passo a passo</b>, ou <b>reinicia-a</b>. →
+</p>
+
+<p id="distrust_2">
+Como já sabes, o <span class="tft">Copião</span> ganha facilmente a longo prazo,
+conforme as nossas regras atuais!
+<br><br>
+Mas isso é conforme as nossas regras <i>atuais</i>, que dizem que
+os jogadores jogam uns contra os outros <i>10</i> rondas por partida.
+Será que o <span class="tft">Copião</span> ainda ganha se forem 7 rondas? 5 rondas? 3? 2? 1?
+<br><br>
+<b>Altera o número de rondas</b> com a barra deslizante abaixo,
+depois <b>INICIA</b> a simulação, e vê o que acontece.
+Está à vontade para experimentar!
+</p>
+
+<p id="distrust_2_end">
+quando terminares, clica em:
+</p>
+
+<p id="distrust_3">
+Como viste, se não jogares rondas suficientes, (aqui: 5 ou menos)
+o <span class="all_d">TRAIDOR</span> domina.
+<br><br>
+Em 1985, quando perguntaram a americanos quantos amigos próximos é que tinham,
+a resposta mais comum foi &quot;três&quot;. Em 2004, a resposta mais comum foi <i>&quot;zero&quot;</i>.
+Atualmente temos menos amigos de diferentes classes, raças, e linhas de pensamento económicas e políticas,
+porque temos menos amigos -- <i>ponto final.</i>
+E como acabaste de descobrir por ti próprio,
+<b>quanto menos &quot;interações repetidas&quot; houver, mais a desconfiança propagar-se-á.</b>
+<br><br>
+(não, os mass media não contam:
+devem ser interações <i>mútuas</i> entre <i>indivíduos específicos</i>.)
+</p>
+<p id="distrust_3_btn">
+e oh, fica pior... →
+</p>
+
+<p id="distrust_4">
+Há uma <i>outra</i> maneira de gerar desconfiança.
+Aqui estão as &quot;recompensas&quot; para o jogo da confiança:
+</p>
+<p id="distrust_4_2">
+Com as recompensas normais, o <span class="tft">Copião</span> ganha.
+Mas agora, <b>altera a recompensa de &quot;ambos cooperam&quot; de +2 para +1</b>,
+e depois clica em <b>INICIAR</b>.
+Apesar de +1 ainda ser <i>maior</i> do que a punição por ambos traírem (0)...
+o que é que acontece?
+</p>
+<p id="distrust_4_note">
+está à vontade para experimentar com diferentes recompensas!
+quando terminares, clica em:
+</p>
+<p id="distrust_4_note_2">
+(a simular: 10 rondas por partida)
+</p>
+
+<p id="distrust_5">
+Acontece a mesma coisa:
+com uma recompensa onde ambos saem a ganhar mais baixa, o <span class="all_d">Traidor</span> assume a liderança.
+A teoria dos jogos tem duas ideias poderosas sobre isto:
+<br><br>
+<b>&quot;Jogo de soma zero&quot;.</b> Esta é a triste crença comum de que um ganho para &quot;nós&quot;
+<i>deve</i> resultar numa perda para &quot;eles&quot;, e vice-versa.
+<br><br>
+<b>&quot;Jogo de soma diferente de zero&quot;.</b> É quando as pessoas fazem o grande esforço
+de criar uma solução onde ambas as partes saem a ganhar! (ou pelo menos, evitar uma situação onde ambas saem a perder)
+Sem o jogo de soma diferente de zero, a <i>confiança não consegue evoluir.</i>
+<br><br>
+Por falar nisso,
+vamos agora analisar a nossa terceira e última entrave à evolução da confiança...
+</p>
+<p id="distrust_5_btn">
+<s>Errod</s> Erros. →
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - NOISE! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="noise_1">
+Por mais fixe que o <span class="tft">Copião</span> seja, ele tem uma fraqueza enorme e fatal que eu ainda não mencionei.
+Para compreender o problema, digamos que dois <span class="tft">Copiões</span> estejam a jogar um contra o outro:
+</p>
+<p id="noise_1_end">
+Sendo jogadores &quot;simpáticos&quot;, as primeiras jogadas dos dois serão:
+</p>
+
+<p id="noise_2">
+E normalmente, eles retribuiriam a simpatia um do outro e cantariam Kumbaya até ao fim dos tempos.
+</p>
+<p id="noise_2_end">
+Mas e se, enquanto tentavam retribuir bondade...
+</p>
+
+<p id="noise_3">
+<b>OH NÃO</b>
+<br>
+Erros, falhas de comunicação, más interpretações -- acidentes acontecem o tempo todo na vida real.
+</p>
+<p id="noise_3_end">
+Mas se a outra pessoa não <i>achar</i> que foi um acidente...
+</p>
+
+<p id="noise_4">
+<b>OH NÃO VEZES DOIS</b>
+<br>
+O outro jogador, sendo um <span class="tft">Copião</span>, <i>teve</i> que retaliar...
+</p>
+<p id="noise_4_end">
+...e tu, sendo também um <span class="tft">Copião</span>, <i>também</i> terás que retaliar...
+</p>
+
+<p id="noise_5">
+Assim, tal como os Hatfields e os McCoys,
+estes dois <span class="tft">Copiões</span> vão entrar num ciclo infinito de vingança...
+que começou por causa de um único erro, há muito tempo atrás.
+</p>
+<p id="noise_5_end">
+Trágico. Mas e agora, haverá <i>outros</i> tipos de jogadores que conseguem...
+</p>
+<p id="noise_5_btn">
+...lidar com erros? →
+</p>
+
+<p id="noise_characters">
+Vamos conhecer umas caras novas! (ou, chapéus novos, seja como for)
+</p>
+
+<p id="character_tf2t">
+<b>COPIINHO:</b><br>
+Olá! Eu sou como o <span class="tft">Copião</span>,
+só que eu só Traio de volta depois de ter sido Traído duas vezes seguidas.
+Afinal, a primeira pode ter sido um erro! Purrrrr
+</p>
+
+<p id="character_pavlov">
+<b>SIMPLÓRIO:</b><br>
+ola eu tentar começar a cooperar.
+se tu cooperar de volta, eu fazer o <i>mesmo</i> que a minha ultima jogada, mesmo que ter sido um erro.
+se tu trair de volta, eu fazer o <i>oposto</i> da minha ultima jogada, mesmo que ter sido um erro.
+</p>
+
+<p id="character_random">
+<b>ALEATÓRIO:</b><br>
+<i>Robô macaco! Tacos ninja de pizza! lol sou tão aleatório</i><br>
+(Trai ou Coopera aleatoriamente com 50/50 de chance)
+</p>
+
+<p id="noise_characters_end">
+Ok, vamos lá ver o quão bem estes tipos se saem quando...
+</p>
+<p id="noise_characters_btn">
+...jogam num torneio →
+</p>
+
+<p id="noise_evo_1">
+Comecemos com uma dúzia de
+<span class="all_c">Cooperadores</span>,
+contra o nosso velho vencedor, o justo <span class="tft">Copião</span>,
+e as nossas três novas personagens:
+o misericordioso <span class="tf2t">Copiinho</span>,
+o aborrecido <span class="pavlov">Simplório</span>, e
+o totó do <span class="random">Aleatório</span>.
+<br><br>
+Em cada ronda de uma partida, os jogadores têm uma pequena chance de cometer um erro. (digamos, 5%)
+Quem é que achas que vai levar a melhor?
+<b>Pensa bem, e depois FAZ A TUA APOSTA:</b>
+</p>
+
+<p id="noise_evo_2">
+Muito bem, apostas que o [CHAR] vai ganhar. Vamos lá descobrir!
+Usa os botões à tua esquerda para <b>INICAR</b> a simulação no modo rápido,
+ou analisa-a <b>passo a passo</b>.
+</p>
+<p id="noise_evo_2_2_correct">
+Acertaste --
+</p>
+<p id="noise_evo_2_2_incorrect">
+Quase, mas não foi desta vez --
+</p>
+<p id="noise_evo_2_2">
+Ganhou o <span class="pavlov">Simplório</span>!
+Tal deve-se ao facto de que o <span class="pavlov">Simplório</span> é, na verdade, capaz de
+explorar o <span class="all_c">Cooperador</span>. Ambos começam a cooperar,
+mas se o <span class="pavlov">Simplório</span> cometer um erro e trair o <span class="all_c">Cooperador</span>,
+uma vez que o segundo nunca retalia,
+<i>o primeiro vai continuar a traí-lo</i>.
+</p>
+<p id="noise_evo_2_2_btn">
+Tentemos agora...
+</p>
+
+<p id="noise_evo_3">
+...a mesma coisa que antes, só que em vez de metade de <span class="all_c">Cooperadores</span>,
+será metade de <span class="all_d">Traidores</span>. É um ambiente bem <i>menos</i> perdoador,
+bem <i>mais</i> hostil.
+<br><br>
+Quem é que achas que vai ganhar desta vez? <b>Pondera, e depois FAZ A TUA APOSTA:</b>
+</p>
+
+<p id="noise_evo_4">
+Apostas no [CHAR]. Mais uma vez, analisa a simulação...
+</p>
+<p id="noise_evo_4_2_correct">
+Está... CERTAAAAAA! -- 
+</p>
+<p id="noise_evo_4_2_incorrect">
+Bom palpite, mas outra pessoa levou o prémio -- 
+</p>
+<p id="noise_evo_4_2">
+É o <span class="tf2t">Copiinho</span> quem ganha desta vez!
+É surpreendente que com uma população inicial ainda <i>mais maldosa</i>,
+o <span class="tf2t">Copiinho</span>,
+uma versão <i>mais tolerante</i> do <span class="tft">Copião</span>,
+foi o mais bem sucedido! (nota: o <span class="tf2t">Copiinho</span> perdoa tanto
+que nem <i>arrasa</i> com o <span class="tft">Copião</span> por completo. partilha o espaço)
+<br><br>
+Neste caso, um pouco de &quot;falhas de comunicação&quot; (5% de chance de erro a cada ronda) pode levar
+a mais <i>perdão</i>. Mas será que isto é verdade para <i>todos</i> os níveis...
+</p>
+<p id="noise_evo_4_2_btn">
+...de falhas de comunicação?
+</p>
+
+<p id="noise_evo_5">
+<b>Usa a barra deslizante abaixo para alterar a quantidade de &quot;falhas de comunicação&quot;, e depois clica em INICIAR.</b>
+A 5%, o <span class="tf2t">Copiinho</span> ganha.
+O que é que acontece a 0%? Ou 20%? Ou 50%? (só vai até 50%,
+porque a essa altura, <i>todas</i> as jogadas são um 50/50) 
+</p>
+<p id="noise_evo_5_continue">
+Quando terminares, clica em:
+</p>
+
+<p id="noise_evo_6">
+Os resultados revelam-se algo deste tipo:<br>
+<b>A 0%,</b> o justo <span class="tft">Copião</span> ganha!
+<b>A 1% até 9%,</b> o misericordioso <span class="tf2t">Copiinho</span> ganha!
+<b>A 10% até 49%:</b> o injusto e impiedoso <span class="all_d">Traidor</span> ganha.
+<b>A 50%,</b> <i>ninguém nunca ganha.</i>
+<br><br>
+É por isto que &quot;faltas de comunicação&quot; são entraves à confiança tão interessantes:
+um <i>pouco</i> dela leva ao perdão,
+mas <i>demasiado</i> leva à desconfiança generalizada!
+Penso que a nossa tecnologia moderna dos média,
+por muito que nos tenha ajudado a aumentar a comunicação...
+aumentou muito mais a nossa <i>falta de comunicação</i>.
+<br><br>
+Por fim, vamos experimentar com <i>todos</i> os números, botões e barras deslizantes.
+Vamos jogar...
+</p>
+<p id="noise_evo_6_btn">
+...no Modo Sandbox!
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - SANDBOX! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="sandbox_population">
+Começa com esta distribuição de jogadores:
+</p>
+
+<p id="sandbox_payoffs">
+As recompensas num jogo de um contra um são:
+</p>
+<p id="sandbox_reset_payoffs">
+definições padrão
+</p>
+
+<!--
+When translating the following, keep the "[N]", with square brackets,
+as a placeholder for the number. Some of these need double-translations,
+one for the plural version, one for the singular version.
+-->
+
+<p id="sandbox_rules_1">
+Jogar [N] rondas por partida:
+</p>
+<p id="sandbox_rules_1_single">
+Jogar [N] ronda por partida:
+</p>
+
+<p id="sandbox_rules_2">
+Após cada torneio, eliminar os [N] piores jogadores e reproduzir os [N] melhores jogadores:
+</p>
+<p id="sandbox_rules_2_single">
+Após cada torneio, eliminar o [N] pior jogador e reproduzir o [N] melhor jogador:
+</p>
+
+<p id="sandbox_rules_3">
+Durante cada ronda, há [N]% de chances de um jogador cometer um erro:
+</p>
+
+<p id="sandbox_end">
+<b>NOTA: o Modo Sandbox é totalmente opcional.</b>
+Está à vontade para passá-lo à frente, ou explorá-lo! Quando terminares, vamos recapitular...
+</p>
+<p id="sandbox_end_btn">
+o que aprendemos hoje! →
+</p>
+
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - CONCLUSION! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="conclusion_0">
+A teoria dos jogos mostrou-nos as três coisas de que precisamos para a evolução da confiança:
+</p>
+<p id="conclusion_1_a">
+1. REPETIR INTERAÇÕES
+</p>
+<p id="conclusion_1_a2">
+A confiança mantém uma relação em andamento,
+mas é necessário o conhecimento de possíveis futuras interações repetidas <i>antes</i> de a confiança poder evoluir.
+</p>
+<p id="conclusion_2_a">
+2. POSSÍVEIS SITUAÇÕES ONDE AMBOS SAEM A GANHAR
+</p>
+<p id="conclusion_2_a2">
+Deves jogar um jogo de soma diferente de zero,
+um jogo onde é pelo menos possível que <i>ambos</i> os jogadores possam estar numa situação melhor -- esta é uma situação onde ambos saem a ganhar.
+</p>
+<p id="conclusion_3_a">
+3. BAIXA FALHA DE COMUNICAÇÃO
+</p>
+<p id="conclusion_3_a2">
+Se o nível de falhas de comunicação for <i>demasiado</i> alto, a confiança é quebrada.
+Mas quando há um pouquinho de falhas de comunicação, vale a pena ser <i>mais</i> perdoador.
+</p>
+<p id="conclusion_4">
+Claro, a confiança no mundo real é afetada por muito mais do que isto.
+Há reputação, valores partilhados, contratos, marcadores culturais, blá blá blá.
+E não esqueçamos...
+</p>
+<p id="conclusion_btn">
+...a <i>maior</i> lição. →
+</p>
+
+<p id="outro_1">
+Se há algo a retirar<br>
+de <i>toda</i> a teoria dos jogos, é o seguinte:
+<br><br>
+<b>O que o jogo é, define o que os jogadores fazem.</b><br>
+O nosso problema atualmente não é só o facto de que as pessoas estão a perder a confiança,<br>
+é o facto de que o nosso <i>ambiente</i> age contra a evolução da confiança.
+<br><br>
+Pode parecer cínico ou ingénuo -- que sejamos &quot;meros&quot; produtos do nosso ambiente --
+mas como nos lembra a teoria dos jogos, nós <i>somos</i> o ambiente uns dos outros.
+<b>A curto prazo, o jogo define os jogadores. Mas a longo prazo,
+somos nós os jogadores que definimos o jogo.</b>
+<br><br>
+Por isso, faz o que <i>tu</i> puderes, para criar as condições necessárias para evoluir a confiança.
+Constrói relações. Encontra situações onde toda a gente sai a ganhar. Comunica com clareza.
+Talvez nessa altura, nós possamos parar de disparar uns contra os outros, sair das nossas próprias trincheiras,
+atravessar a Terra de Ninguém para ficarmos juntos...
+</p>
+
+<p id="outro_1_btn">
+e todos aprendem...
+</p>
+
+<p id="outro_2">
+...a viver e deixar viver.
+</p>
+
+<p id="outro_2_credits">
+&quot;Uma Trégua de Natal entre Trincheiras Adversárias&quot;
+Ilustrado por AC Michael.
+Publicado em <i>The Illustrated London News</i>, 9 de janeiro de 1915.
+</p>
+
+<p id="outro_2_btn">
+&lt;3
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - CREDITS! - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="credits">
+<span class="credits">
+
+criado por:<br>
+<span class="big">NICKY CASE</span><br>
+<a href="http://ncase.me/" target="_blank">joga as minhas outras coijas</a>
+•
+<a href="https://twitter.com/ncasenmare" target="_blank">segue-me no tweeter</a>
+<br>
+<a href="https://github.com/ncase/trust/#play-it-here-httpncasemetrust" target="_blank">descarrega a música e o código-fonte</a>
+
+<span class="divider"></span>
+
+baseado no livro de robert axelrod de 1984,<br>
+<span class="big">&quot;A EVOLUÇÃO DA COOPERAÇÃO&quot;</span><br>
+<a href="notes" target="_blank">lê as minhas notas de rodapé para este jogo</a>
+
+<span class="divider"></span>
+
+muito amor e um obrigado<br>
+<span class="big">AOS MEUS COLABORADORES DO PATREON</span><br>
+<a href="peeps" target="_blank">vê os meus desenhos deles</a>
+•
+<a href="https://www.patreon.com/ncase" target="_blank">atira-me moedas no patreon &lt;3</a>
+
+<span class="divider"></span>
+
+p.s: queres mais jogos onde aprendes enquanto jogas?<br>
+dá uma olhada nas
+<a href="http://explorabl.es/" target="_blank">explicações exploráveis</a>!
+
+</span>
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - THE PLAYERS - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_tft">Copião</p>
+<p id="label_short_tft">
+copião
+</p>
+<p id="icon_tft">
+<span class="tft">
+	<span class="icon"></span>
+	<span class="icon_label">Copião</span>
+</span>
+</p>
+
+<p id="label_all_d">Traidor</p>
+<p id="label_short_all_d">
+traidor
+</p>
+<p id="icon_all_d">
+<span class="all_d">
+	<span class="icon"></span>
+	<span class="icon_label">Traidor</span>
+</span>
+</p>
+
+<p id="label_all_c">Cooperador</p>
+<p id="label_short_all_c">
+cooperador
+</p>
+<p id="icon_all_c">
+<span class="all_c">
+	<span class="icon"></span>
+	<span class="icon_label">Cooperador</span>
+</span>
+</p>
+
+<p id="label_grudge">Rancoroso</p>
+<p id="label_short_grudge">
+rancoroso
+</p>
+<p id="icon_grudge">
+<span class="grudge">
+	<span class="icon"></span>
+	<span class="icon_label">Rancoroso</span>
+</span>
+</p>
+
+<p id="label_prober">Detetive</p>
+<p id="label_short_prober">
+detetive
+</p>
+<p id="icon_prober">
+<span class="prober">
+	<span class="icon"></span>
+	<span class="icon_label">Detetive</span>
+</span>
+</p>
+
+<p id="label_tf2t">Copiinho</p>
+<p id="label_short_tf2t">
+copiinho
+</p>
+<p id="icon_tf2t">
+<span class="tf2t">
+	<span class="icon"></span>
+	<span class="icon_label">Copiinho</span>
+</span>
+</p>
+
+<p id="label_pavlov">Simplório</p>
+<p id="label_short_pavlov">
+simplório
+</p>
+<p id="icon_pavlov">
+<span class="pavlov">
+	<span class="icon"></span>
+	<span class="icon_label">Simplório</span>
+</span>
+</p>
+
+<p id="label_random">Aleatório</p>
+<p id="label_short_random">
+aleatório
+</p>
+<p id="icon_random">
+<span class="random">
+	<span class="icon"></span>
+	<span class="icon_label">Aleatório</span>
+</span>
+</p>
+
+<p id="forgot_whos_who">
+(esqueceste-te de quem é quem? descansa o cursor nos botões para ver descrições de cada personagem!)
+</p>
+<p id="who_tft">
+Começa com Cooperar. Em seguida, simplesmente repete o que quer que TU tenhas feito na última ronda.
+</p>
+<p id="who_all_d">
+Trai sempre.
+</p>
+<p id="who_all_c">
+Coopera sempre.
+</p>
+<p id="who_grudge">
+Começa com Cooperar, e continua a cooperar até tu traíres a confiança dele uma vez que seja.
+Se tal tiver acontecido, joga sempre Trair.
+</p>
+<p id="who_prober">
+Começa com: Cooperar, Trair, Cooperar, Cooperar.
+Depois, se tu retaliares alguma vez com uma Traição, ele joga como o Copião.
+Caso contrário, joga como o Traidor.
+</p>
+<p id="who_tf2t">
+Começa com Cooperar.
+Só retalia com uma Traição se tu tiveres traído a confiança dele DUAS VEZES seguidas.
+</p>
+<p id="who_pavlov">
+Começa com Cooperar.
+Depois, se tu cooperaste na última ronda, ele repete a sua última jogada (mesmo que tenha sido um acidente).
+Mas se tu o traíste na última ronda, ele altera a sua última jogada (mesmo que tenha sido um acidente).
+</p>
+<p id="who_random">
+Trai ou coopera aleatoriamente com 50/50 de chance
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - SMALL LABELS! - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_cooperate">
+cooperar
+</p>
+
+<p id="label_cheat">
+trair
+</p>
+
+<p id="label_play">
+jogar
+</p>
+
+<p id="label_start">
+INICIAR
+</p>
+
+<p id="label_stop">
+PARAR
+</p>
+
+<p id="label_step">
+passo
+</p>
+
+<p id="label_reset">
+reiniciar
+</p>
+
+<p id="label_population">
+população
+</p>
+
+<p id="label_payoffs">
+recomp.
+</p>
+
+<p id="label_rules">
+regras
+</p>
+
+<p id="label_next">
+próximo →
+</p>
+
+<p id="label_continue">
+continuar
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - NAVIGATING CHAPTERS - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="chapter_intro">
+0. Introdução
+</p>
+<p id="chapter_oneoff">
+1. Um Jogo
+</p>
+<p id="chapter_iterated">
+2. Jogo Repetido
+</p>
+<p id="chapter_tournament">
+3. Um Torneio
+</p>
+<p id="chapter_evolution">
+4. Torneio Repetido
+</p>
+<p id="chapter_distrust">
+5. A Evolução da Desconfiança
+</p>
+<p id="chapter_noise">
+6. Cometimento de Errod
+</p>
+<p id="chapter_sandbox">
+7. Modo Sandbox
+</p>
+<p id="chapter_conclusion">
+8. Conclusão
+</p>
+<p id="chapter_credits">
+9. Créditos
+</p>
